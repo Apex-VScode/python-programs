@@ -4,7 +4,7 @@ Rate = int(input("Enter your Rate OF Interest Here"))
 Time = int(input("Enter your Time Period Here"))
 #one mistake done by me,
 # i did this,,,,,Time = input(int("Enter your Time Period Here"))
-#data type sabse phele likho, logic input ka data type decide karna hai
+#data type sabse phele likho, logic: input ka data type decide karna hai
 SI = (principal*Rate*Time)/100
 print("calculated Simple Interest :", SI)
 Total_amount = int(principal + SI)
